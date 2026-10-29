@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "back-matter-builder"
+version = "0.1.0"
+description = "Assemble KDP-ready book back matter (copyright, also-by, series, review ask, newsletter, about, endnotes) from a profile file, with trim-size geometry and a dangling-link lint."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Asdale Dynamics, LLC" }]
+keywords = ["kdp", "selfpublishing", "back-matter", "book", "author-tools", "ollama"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "Programming Language :: Python :: 3",
+    "Topic :: Printing",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+backmatter = "backMatterBuilder.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["backMatterBuilder*"]

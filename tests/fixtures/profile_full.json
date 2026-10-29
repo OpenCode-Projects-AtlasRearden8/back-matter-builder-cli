@@ -1,0 +1,33 @@
+{
+  "title": "The Massive AI Manual",
+  "author": "Dylan Asdale",
+  "year": 2026,
+  "publisher": "Asdale Dynamics, LLC",
+  "trim": "6x9",
+  "page_count": 200,
+  "also_by": {
+    "books": ["The Massive AI Manual: Quick Start"]
+  },
+  "series": {
+    "name": "Friend-Explained AI",
+    "this_book": "Book 1: The Massive AI Manual",
+    "books": ["Book 1: The Massive AI Manual", "Book 2: Agents and MCP"],
+    "blurb": "Plain-English AI, step by step.",
+    "url": "https://dylanasdale.github.io"
+  },
+  "review_ask": {
+    "text": "If this book explained something you thought was out of reach, an honest review helps the next beginner find it."
+  },
+  "newsletter": {
+    "url": "https://dylanasdale.github.io/newsletter",
+    "blurb": "One free email a month."
+  },
+  "about": {
+    "text": "Dylan Asdale is a registered nurse turned AI author and the founder of Asdale Dynamics, LLC."
+  },
+  "endnotes": {
+    "heading": "Notes",
+    "text": "1. Chapter 3 pricing verified at time of writing."
+  },
+  "endnotes_placement": "first"
+}

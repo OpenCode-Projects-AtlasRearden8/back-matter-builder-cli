@@ -1,0 +1,58 @@
+{
+  "title": "The Massive AI Manual",
+  "author": "Dylan Asdale",
+  "year": 2026,
+  "publisher": "Asdale Dynamics, LLC",
+  "edition": "First edition",
+  "isbn": "978-1-00000-000-0",
+  "trim": "6x9",
+  "page_count": 200,
+  "copyright": {
+    "extras": [
+      "This book explains AI in plain English. It is educational; it is not medical, legal, or financial advice.",
+      "AI features change quickly: every walkthrough was verified before publication."
+    ]
+  },
+  "also_by": {
+    "heading": "Also by Dylan Asdale",
+    "books": [
+      "The Massive AI Manual: Quick Start",
+      "Local AI for Beginners"
+    ]
+  },
+  "series": {
+    "name": "Friend-Explained AI",
+    "this_book": "Book 1: The Massive AI Manual",
+    "books": [
+      "Book 1: The Massive AI Manual",
+      "Book 2: Agents and MCP, Friend-Explained"
+    ],
+    "blurb": "Plain-English AI, step by step, never condescending.",
+    "url": "https://dylanasdale.github.io"
+  },
+  "review_ask": {
+    "heading": "Leave a Review",
+    "text": "If this book explained something you thought was out of reach, an honest review helps the next beginner find it. Take a minute wherever you bought the book; every review genuinely helps."
+  },
+  "newsletter": {
+    "heading": "Join the Newsletter",
+    "url": "https://dylanasdale.github.io/newsletter",
+    "blurb": "One free email a month: new walkthroughs, tool updates, and reader Q&A. No spam, ever."
+  },
+  "about": {
+    "heading": "About the Author",
+    "text": "Dylan Asdale is a registered nurse turned AI author and the founder of Asdale Dynamics, LLC. He wrote The Massive AI Manual to explain AI the way a friend would: plain English, step by step, never condescending. Find more guides at dylanasdale.github.io."
+  },
+  "endnotes": {
+    "heading": "Notes",
+    "text": "1. Chapter 3 pricing verified at time of writing. 2. Chapter 6: local model requirements from vendor documentation."
+  },
+  "endnotes_placement": "first",
+  "rewrite": {
+    "enabled": false,
+    "base_url": "http://localhost:11434/v1",
+    "model": "llama3.2",
+    "temperature": 0.4,
+    "sections": ["review_ask", "newsletter", "about", "endnotes"]
+  }
+}

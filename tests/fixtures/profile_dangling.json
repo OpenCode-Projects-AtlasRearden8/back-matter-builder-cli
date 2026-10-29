@@ -1,0 +1,9 @@
+{
+  "title": "Dangling Demo",
+  "author": "Test Author",
+  "year": 2026,
+  "newsletter": {
+    "url": "https://your-newsletter-link.example.com/TODO",
+    "blurb": "Blurb present"
+  }
+}
